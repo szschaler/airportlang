@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/uk.ac.kcl.inf.modelling.airportcheckin.model/src-gen"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/uk.ac.kcl.inf.modelling.airportcheckin.model/src-gen"
     creationIcons="false" editDirectory="/uk.ac.kcl.inf.modelling.airportcheckin.model.edit/src-gen"
     editorDirectory="/uk.ac.kcl.inf.modelling.airportcheckin.model.editor/src-gen"
     modelPluginID="uk.ac.kcl.inf.modelling.airportcheckin.model" modelName="Airport"
@@ -10,5 +11,17 @@
   <foreignModel>airport.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="Airport" basePackage="uk.ac.kcl.inf.modelling.airportcheckin.model"
-      disposableProviderFactory="true" ecorePackage="airport.ecore#/"/>
+      disposableProviderFactory="true" ecorePackage="airport.ecore#/">
+    <genClasses ecoreClass="airport.ecore#//Airport">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//Airport/queues"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//Airport/counters"/>
+    </genClasses>
+    <genClasses ecoreClass="airport.ecore#//PassengerQueue">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference airport.ecore#//PassengerQueue/feedsInto"/>
+    </genClasses>
+    <genClasses ecoreClass="airport.ecore#//CheckinCounter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute airport.ecore#//CheckinCounter/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference airport.ecore#//CheckinCounter/queues"/>
+    </genClasses>
+  </genPackages>
 </genmodel:GenModel>
