@@ -8,7 +8,7 @@
         eType="#//CheckinCounter" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="floatingPassengers" upperBound="-1"
         eType="#//Passenger" containment="true">
-      <eAnnotations source="Aspect"/>
+      <eAnnotations source="aspect"/>
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PassengerQueue">
@@ -16,7 +16,7 @@
         eOpposite="#//CheckinCounter/queues"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="queuedPassengers" upperBound="-1"
         eType="#//Passenger" containment="true">
-      <eAnnotations source="Aspect"/>
+      <eAnnotations source="aspect"/>
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CheckinCounter">
@@ -25,10 +25,10 @@
         eType="#//PassengerQueue" eOpposite="#//PassengerQueue/feedsInto"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="passenger" upperBound="-1"
         eType="#//Passenger" containment="true">
-      <eAnnotations source="Aspect"/>
+      <eAnnotations source="aspect"/>
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Passenger">
-    <eAnnotations source="Aspect"/>
+    <eAnnotations source="aspect"/>
   </eClassifiers>
 </ecore:EPackage>
