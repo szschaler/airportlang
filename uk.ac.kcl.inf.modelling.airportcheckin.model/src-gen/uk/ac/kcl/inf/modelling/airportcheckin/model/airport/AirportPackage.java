@@ -122,7 +122,7 @@ public interface AirportPackage extends EPackage {
 	int PASSENGER_QUEUE = 1;
 
 	/**
-	 * The feature id for the '<em><b>Feeds Into</b></em>' reference.
+	 * The feature id for the '<em><b>Feeds Into</b></em>' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -177,7 +177,7 @@ public interface AirportPackage extends EPackage {
 	int CHECKIN_COUNTER__NAME = 0;
 
 	/**
-	 * The feature id for the '<em><b>Queues</b></em>' reference list.
+	 * The feature id for the '<em><b>Queues</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -186,7 +186,7 @@ public interface AirportPackage extends EPackage {
 	int CHECKIN_COUNTER__QUEUES = 1;
 
 	/**
-	 * The feature id for the '<em><b>Passenger</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Passenger</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -294,10 +294,10 @@ public interface AirportPackage extends EPackage {
 	EClass getPassengerQueue();
 
 	/**
-	 * Returns the meta object for the reference '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.PassengerQueue#getFeedsInto <em>Feeds Into</em>}'.
+	 * Returns the meta object for the reference list '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.PassengerQueue#getFeedsInto <em>Feeds Into</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Feeds Into</em>'.
+	 * @return the meta object for the reference list '<em>Feeds Into</em>'.
 	 * @see uk.ac.kcl.inf.modelling.airportcheckin.model.airport.PassengerQueue#getFeedsInto()
 	 * @see #getPassengerQueue()
 	 * @generated
@@ -337,10 +337,10 @@ public interface AirportPackage extends EPackage {
 	EAttribute getCheckinCounter_Name();
 
 	/**
-	 * Returns the meta object for the reference list '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getQueues <em>Queues</em>}'.
+	 * Returns the meta object for the reference '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getQueues <em>Queues</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Queues</em>'.
+	 * @return the meta object for the reference '<em>Queues</em>'.
 	 * @see uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getQueues()
 	 * @see #getCheckinCounter()
 	 * @generated
@@ -348,10 +348,10 @@ public interface AirportPackage extends EPackage {
 	EReference getCheckinCounter_Queues();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getPassenger <em>Passenger</em>}'.
+	 * Returns the meta object for the containment reference '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getPassenger <em>Passenger</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Passenger</em>'.
+	 * @return the meta object for the containment reference '<em>Passenger</em>'.
 	 * @see uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getPassenger()
 	 * @see #getCheckinCounter()
 	 * @generated
@@ -436,7 +436,7 @@ public interface AirportPackage extends EPackage {
 		EClass PASSENGER_QUEUE = eINSTANCE.getPassengerQueue();
 
 		/**
-		 * The meta object literal for the '<em><b>Feeds Into</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>Feeds Into</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -470,7 +470,7 @@ public interface AirportPackage extends EPackage {
 		EAttribute CHECKIN_COUNTER__NAME = eINSTANCE.getCheckinCounter_Name();
 
 		/**
-		 * The meta object literal for the '<em><b>Queues</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Queues</b></em>' reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -478,7 +478,7 @@ public interface AirportPackage extends EPackage {
 		EReference CHECKIN_COUNTER__QUEUES = eINSTANCE.getCheckinCounter_Queues();
 
 		/**
-		 * The meta object literal for the '<em><b>Passenger</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Passenger</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

@@ -12,8 +12,8 @@
     </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PassengerQueue">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="feedsInto" eType="#//CheckinCounter"
-        eOpposite="#//CheckinCounter/queues"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="feedsInto" lowerBound="1"
+        upperBound="-1" eType="#//CheckinCounter" eOpposite="#//CheckinCounter/queues"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="queuedPassengers" upperBound="-1"
         eType="#//Passenger" containment="true">
       <eAnnotations source="aspect"/>
@@ -21,10 +21,10 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CheckinCounter">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="queues" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="queues" lowerBound="1"
         eType="#//PassengerQueue" eOpposite="#//PassengerQueue/feedsInto"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="passenger" upperBound="-1"
-        eType="#//Passenger" containment="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="passenger" eType="#//Passenger"
+        containment="true">
       <eAnnotations source="aspect"/>
     </eStructuralFeatures>
   </eClassifiers>

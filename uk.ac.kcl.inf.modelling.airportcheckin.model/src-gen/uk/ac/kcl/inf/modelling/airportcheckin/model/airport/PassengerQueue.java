@@ -25,28 +25,18 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface PassengerQueue extends EObject {
 	/**
-	 * Returns the value of the '<em><b>Feeds Into</b></em>' reference.
+	 * Returns the value of the '<em><b>Feeds Into</b></em>' reference list.
+	 * The list contents are of type {@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter}.
 	 * It is bidirectional and its opposite is '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getQueues <em>Queues</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Feeds Into</em>' reference.
-	 * @see #setFeedsInto(CheckinCounter)
+	 * @return the value of the '<em>Feeds Into</em>' reference list.
 	 * @see uk.ac.kcl.inf.modelling.airportcheckin.model.airport.AirportPackage#getPassengerQueue_FeedsInto()
 	 * @see uk.ac.kcl.inf.modelling.airportcheckin.model.airport.CheckinCounter#getQueues
-	 * @model opposite="queues"
+	 * @model opposite="queues" required="true"
 	 * @generated
 	 */
-	CheckinCounter getFeedsInto();
-
-	/**
-	 * Sets the value of the '{@link uk.ac.kcl.inf.modelling.airportcheckin.model.airport.PassengerQueue#getFeedsInto <em>Feeds Into</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Feeds Into</em>' reference.
-	 * @see #getFeedsInto()
-	 * @generated
-	 */
-	void setFeedsInto(CheckinCounter value);
+	EList<CheckinCounter> getFeedsInto();
 
 	/**
 	 * Returns the value of the '<em><b>Queued Passengers</b></em>' containment reference list.

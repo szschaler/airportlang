@@ -327,7 +327,7 @@ public class AirportPackageImpl extends EPackageImpl implements AirportPackage {
 		initEClass(passengerQueueEClass, PassengerQueue.class, "PassengerQueue", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getPassengerQueue_FeedsInto(), this.getCheckinCounter(), this.getCheckinCounter_Queues(),
-				"feedsInto", null, 0, 1, PassengerQueue.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE,
+				"feedsInto", null, 1, -1, PassengerQueue.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE,
 				!IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getPassengerQueue_QueuedPassengers(), this.getPassenger(), null, "queuedPassengers", null, 0, -1,
 				PassengerQueue.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
@@ -338,9 +338,9 @@ public class AirportPackageImpl extends EPackageImpl implements AirportPackage {
 		initEAttribute(getCheckinCounter_Name(), ecorePackage.getEString(), "name", null, 0, 1, CheckinCounter.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCheckinCounter_Queues(), this.getPassengerQueue(), this.getPassengerQueue_FeedsInto(),
-				"queues", null, 0, -1, CheckinCounter.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
+				"queues", null, 1, 1, CheckinCounter.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
 				IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getCheckinCounter_Passenger(), this.getPassenger(), null, "passenger", null, 0, -1,
+		initEReference(getCheckinCounter_Passenger(), this.getPassenger(), null, "passenger", null, 0, 1,
 				CheckinCounter.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 

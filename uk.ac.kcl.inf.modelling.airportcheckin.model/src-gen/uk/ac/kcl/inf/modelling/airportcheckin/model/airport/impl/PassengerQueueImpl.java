@@ -3,19 +3,16 @@
 package uk.ac.kcl.inf.modelling.airportcheckin.model.airport.impl;
 
 import java.util.Collection;
-
-import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
-
-import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
 import uk.ac.kcl.inf.modelling.airportcheckin.model.airport.AirportPackage;
@@ -39,14 +36,14 @@ import uk.ac.kcl.inf.modelling.airportcheckin.model.airport.PassengerQueue;
  */
 public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements PassengerQueue {
 	/**
-	 * The cached value of the '{@link #getFeedsInto() <em>Feeds Into</em>}' reference.
+	 * The cached value of the '{@link #getFeedsInto() <em>Feeds Into</em>}' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getFeedsInto()
 	 * @generated
 	 * @ordered
 	 */
-	protected CheckinCounter feedsInto;
+	protected EList<CheckinCounter> feedsInto;
 
 	/**
 	 * The cached value of the '{@link #getQueuedPassengers() <em>Queued Passengers</em>}' containment reference list.
@@ -83,68 +80,12 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	 * @generated
 	 */
 	@Override
-	public CheckinCounter getFeedsInto() {
-		if (feedsInto != null && feedsInto.eIsProxy()) {
-			InternalEObject oldFeedsInto = (InternalEObject) feedsInto;
-			feedsInto = (CheckinCounter) eResolveProxy(oldFeedsInto);
-			if (feedsInto != oldFeedsInto) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE,
-							AirportPackage.PASSENGER_QUEUE__FEEDS_INTO, oldFeedsInto, feedsInto));
-			}
+	public EList<CheckinCounter> getFeedsInto() {
+		if (feedsInto == null) {
+			feedsInto = new EObjectWithInverseResolvingEList<CheckinCounter>(CheckinCounter.class, this,
+					AirportPackage.PASSENGER_QUEUE__FEEDS_INTO, AirportPackage.CHECKIN_COUNTER__QUEUES);
 		}
 		return feedsInto;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public CheckinCounter basicGetFeedsInto() {
-		return feedsInto;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetFeedsInto(CheckinCounter newFeedsInto, NotificationChain msgs) {
-		CheckinCounter oldFeedsInto = feedsInto;
-		feedsInto = newFeedsInto;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
-					AirportPackage.PASSENGER_QUEUE__FEEDS_INTO, oldFeedsInto, newFeedsInto);
-			if (msgs == null)
-				msgs = notification;
-			else
-				msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setFeedsInto(CheckinCounter newFeedsInto) {
-		if (newFeedsInto != feedsInto) {
-			NotificationChain msgs = null;
-			if (feedsInto != null)
-				msgs = ((InternalEObject) feedsInto).eInverseRemove(this, AirportPackage.CHECKIN_COUNTER__QUEUES,
-						CheckinCounter.class, msgs);
-			if (newFeedsInto != null)
-				msgs = ((InternalEObject) newFeedsInto).eInverseAdd(this, AirportPackage.CHECKIN_COUNTER__QUEUES,
-						CheckinCounter.class, msgs);
-			msgs = basicSetFeedsInto(newFeedsInto, msgs);
-			if (msgs != null)
-				msgs.dispatch();
-		} else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AirportPackage.PASSENGER_QUEUE__FEEDS_INTO,
-					newFeedsInto, newFeedsInto));
 	}
 
 	/**
@@ -166,14 +107,12 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case AirportPackage.PASSENGER_QUEUE__FEEDS_INTO:
-			if (feedsInto != null)
-				msgs = ((InternalEObject) feedsInto).eInverseRemove(this, AirportPackage.CHECKIN_COUNTER__QUEUES,
-						CheckinCounter.class, msgs);
-			return basicSetFeedsInto((CheckinCounter) otherEnd, msgs);
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getFeedsInto()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -187,7 +126,7 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 		case AirportPackage.PASSENGER_QUEUE__FEEDS_INTO:
-			return basicSetFeedsInto(null, msgs);
+			return ((InternalEList<?>) getFeedsInto()).basicRemove(otherEnd, msgs);
 		case AirportPackage.PASSENGER_QUEUE__QUEUED_PASSENGERS:
 			return ((InternalEList<?>) getQueuedPassengers()).basicRemove(otherEnd, msgs);
 		}
@@ -203,9 +142,7 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 		case AirportPackage.PASSENGER_QUEUE__FEEDS_INTO:
-			if (resolve)
-				return getFeedsInto();
-			return basicGetFeedsInto();
+			return getFeedsInto();
 		case AirportPackage.PASSENGER_QUEUE__QUEUED_PASSENGERS:
 			return getQueuedPassengers();
 		}
@@ -222,7 +159,8 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 		case AirportPackage.PASSENGER_QUEUE__FEEDS_INTO:
-			setFeedsInto((CheckinCounter) newValue);
+			getFeedsInto().clear();
+			getFeedsInto().addAll((Collection<? extends CheckinCounter>) newValue);
 			return;
 		case AirportPackage.PASSENGER_QUEUE__QUEUED_PASSENGERS:
 			getQueuedPassengers().clear();
@@ -241,7 +179,7 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	public void eUnset(int featureID) {
 		switch (featureID) {
 		case AirportPackage.PASSENGER_QUEUE__FEEDS_INTO:
-			setFeedsInto((CheckinCounter) null);
+			getFeedsInto().clear();
 			return;
 		case AirportPackage.PASSENGER_QUEUE__QUEUED_PASSENGERS:
 			getQueuedPassengers().clear();
@@ -259,7 +197,7 @@ public class PassengerQueueImpl extends MinimalEObjectImpl.Container implements 
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 		case AirportPackage.PASSENGER_QUEUE__FEEDS_INTO:
-			return feedsInto != null;
+			return feedsInto != null && !feedsInto.isEmpty();
 		case AirportPackage.PASSENGER_QUEUE__QUEUED_PASSENGERS:
 			return queuedPassengers != null && !queuedPassengers.isEmpty();
 		}

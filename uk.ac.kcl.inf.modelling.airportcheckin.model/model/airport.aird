@@ -5,7 +5,7 @@
     <semanticResources>airport.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_H-Y0YFHfEeynh_IVuzZdjA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IAg7UFHfEeynh_IVuzZdjA" name="airport" repPath="#_H_6eYFHfEeynh_IVuzZdjA" changeId="9be2bb79-9920-44d7-a0db-565a6166ebe4">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IAg7UFHfEeynh_IVuzZdjA" name="airport" repPath="#_H_6eYFHfEeynh_IVuzZdjA" changeId="3357ec39-77d6-43cb-b1fe-e26cc9e9eccb">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="airport.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -164,6 +164,17 @@
             <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
           </endLabelStyleDescription>
         </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_DjbD8FHqEeynh_IVuzZdjA" sourceArrow="InputArrow" routingStyle="manhattan">
+          <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <beginLabelStyleDescription xmi:type="style:BeginLabelStyleDescription" xmi:id="_DjbD8VHqEeynh_IVuzZdjA" showIcon="false" labelExpression="service:renderEOpposite">
+            <labelFormat>bold</labelFormat>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </beginLabelStyleDescription>
+          <endLabelStyleDescription xmi:type="style:EndLabelStyleDescription" xmi:id="_DjbD8lHqEeynh_IVuzZdjA" showIcon="false" labelExpression="service:render">
+            <labelFormat>bold</labelFormat>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </endLabelStyleDescription>
+        </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_z6UMoFHfEeynh_IVuzZdjA" name="Airport" tooltipText="" outgoingEdges="_OsZIAFHgEeynh_IVuzZdjA _O7U75lHgEeynh_IVuzZdjA _aYE2kFHhEeynh_IVuzZdjA" width="12" height="10">
@@ -230,14 +241,17 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f1IxoFHgEeynh_IVuzZdjA" sourceNode="_14SVMFHfEeynh_IVuzZdjA" targetNode="_4IjusFHfEeynh_IVuzZdjA" beginLabel="[0..*] queues" endLabel="[0..1] feedsInto">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f1IxoFHgEeynh_IVuzZdjA" sourceNode="_14SVMFHfEeynh_IVuzZdjA" targetNode="_4IjusFHfEeynh_IVuzZdjA" beginLabel="[1..1] queues" endLabel="[1..*] feedsInto">
       <target xmi:type="ecore:EReference" href="airport.ecore#//PassengerQueue/feedsInto"/>
       <semanticElements xmi:type="ecore:EReference" href="airport.ecore#//PassengerQueue/feedsInto"/>
       <semanticElements xmi:type="ecore:EReference" href="airport.ecore#//CheckinCounter/queues"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f1JYsFHgEeynh_IVuzZdjA" sourceArrow="InputArrow" routingStyle="manhattan" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='Bi-directional%20EC_EReference%20']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f1J_wFHgEeynh_IVuzZdjA" showIcon="false"/>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f1J_wVHgEeynh_IVuzZdjA" showIcon="false"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DjbD81HqEeynh_IVuzZdjA" description="_DjbD8FHqEeynh_IVuzZdjA" sourceArrow="InputArrow" routingStyle="manhattan" strokeColor="0,0,0">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_DjbD9FHqEeynh_IVuzZdjA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </beginLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_DjbD9VHqEeynh_IVuzZdjA" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='Bi-directional%20EC_EReference%20']"/>
     </ownedDiagramElements>
@@ -278,7 +292,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bFAODFHhEeynh_IVuzZdjA" name="[0..*] passenger" sourceNode="_4IjusFHfEeynh_IVuzZdjA" targetNode="_V5FiwFHhEeynh_IVuzZdjA">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bFAODFHhEeynh_IVuzZdjA" name="[0..1] passenger" sourceNode="_4IjusFHfEeynh_IVuzZdjA" targetNode="_V5FiwFHhEeynh_IVuzZdjA">
       <target xmi:type="ecore:EReference" href="airport.ecore#//CheckinCounter/passenger"/>
       <semanticElements xmi:type="ecore:EReference" href="airport.ecore#//CheckinCounter/passenger"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bFA1EFHhEeynh_IVuzZdjA" description="_OsbkQFHgEeynh_IVuzZdjA" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
