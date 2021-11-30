@@ -3,8 +3,7 @@
   <queues feedsInto="//@counters.0">
     <queuedPassengers/>
   </queues>
-  <queues feedsInto="//@counters.0"/>
-  <counters queues="//@queues.0 //@queues.1">
+  <counters queues="//@queues.0">
     <passenger/>
   </counters>
   <floatingPassengers/>
