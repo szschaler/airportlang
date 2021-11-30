@@ -4,18 +4,18 @@
   <units xsi:type="henshin:Rule" xmi:id="_Rj0AEFHrEeyFluqRbEVRLw" name="passengerArrival">
     <lhs xmi:id="_RkNBoFHrEeyFluqRbEVRLw" name="Lhs">
       <nodes xmi:id="_TXwp8FHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport"/>
+        <type href="http://www.example.org/airport#//Airport"/>
       </nodes>
     </lhs>
     <rhs xmi:id="_RkNBoVHrEeyFluqRbEVRLw" name="Rhs">
       <nodes xmi:id="_TXxRAFHrEeyFluqRbEVRLw" outgoing="_WeiNoFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport"/>
+        <type href="http://www.example.org/airport#//Airport"/>
       </nodes>
       <nodes xmi:id="_UTeEQFHrEeyFluqRbEVRLw" incoming="_WeiNoFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+        <type href="http://www.example.org/airport#//Passenger"/>
       </nodes>
       <edges xmi:id="_WeiNoFHrEeyFluqRbEVRLw" source="_TXxRAFHrEeyFluqRbEVRLw" target="_UTeEQFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport/floatingPassengers"/>
+        <type href="http://www.example.org/airport#//Airport/floatingPassengers"/>
       </edges>
     </rhs>
     <mappings xmi:id="_TXx4EFHrEeyFluqRbEVRLw" origin="_TXwp8FHrEeyFluqRbEVRLw" image="_TXxRAFHrEeyFluqRbEVRLw"/>
@@ -23,36 +23,36 @@
   <units xsi:type="henshin:Rule" xmi:id="_bHsKEFHrEeyFluqRbEVRLw" name="passengerPicksQueue">
     <lhs xmi:id="_bHxCkFHrEeyFluqRbEVRLw" name="Lhs">
       <nodes xmi:id="_cmJsIFHrEeyFluqRbEVRLw" outgoing="_ecb4UFHrEeyFluqRbEVRLw _esNZsFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport"/>
+        <type href="http://www.example.org/airport#//Airport"/>
       </nodes>
       <nodes xmi:id="_dBwqEFHrEeyFluqRbEVRLw" incoming="_ecb4UFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue"/>
+        <type href="http://www.example.org/airport#//PassengerQueue"/>
       </nodes>
       <nodes xmi:id="_dbrl8FHrEeyFluqRbEVRLw" incoming="_esNZsFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+        <type href="http://www.example.org/airport#//Passenger"/>
       </nodes>
       <edges xmi:id="_ecb4UFHrEeyFluqRbEVRLw" source="_cmJsIFHrEeyFluqRbEVRLw" target="_dBwqEFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport/queues"/>
+        <type href="http://www.example.org/airport#//Airport/queues"/>
       </edges>
       <edges xmi:id="_esNZsFHrEeyFluqRbEVRLw" source="_cmJsIFHrEeyFluqRbEVRLw" target="_dbrl8FHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport/floatingPassengers"/>
+        <type href="http://www.example.org/airport#//Airport/floatingPassengers"/>
       </edges>
     </lhs>
     <rhs xmi:id="_bHxpoFHrEeyFluqRbEVRLw" name="Rhs">
       <nodes xmi:id="_cmJsIVHrEeyFluqRbEVRLw" outgoing="_ecb4UVHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport"/>
+        <type href="http://www.example.org/airport#//Airport"/>
       </nodes>
       <nodes xmi:id="_dBwqEVHrEeyFluqRbEVRLw" incoming="_ecb4UVHrEeyFluqRbEVRLw" outgoing="_e9pvAFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue"/>
+        <type href="http://www.example.org/airport#//PassengerQueue"/>
       </nodes>
       <nodes xmi:id="_dbrl8VHrEeyFluqRbEVRLw" incoming="_e9pvAFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+        <type href="http://www.example.org/airport#//Passenger"/>
       </nodes>
       <edges xmi:id="_ecb4UVHrEeyFluqRbEVRLw" source="_cmJsIVHrEeyFluqRbEVRLw" target="_dBwqEVHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Airport/queues"/>
+        <type href="http://www.example.org/airport#//Airport/queues"/>
       </edges>
       <edges xmi:id="_e9pvAFHrEeyFluqRbEVRLw" source="_dBwqEVHrEeyFluqRbEVRLw" target="_dbrl8VHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue/queuedPassengers"/>
+        <type href="http://www.example.org/airport#//PassengerQueue/queuedPassengers"/>
       </edges>
     </rhs>
     <mappings xmi:id="_cmJsIlHrEeyFluqRbEVRLw" origin="_cmJsIFHrEeyFluqRbEVRLw" image="_cmJsIVHrEeyFluqRbEVRLw"/>
@@ -62,43 +62,43 @@
   <units xsi:type="henshin:Rule" xmi:id="_sMrVEFHrEeyFluqRbEVRLw" name="passengerPicksDesk">
     <lhs xmi:id="_sMw0oFHrEeyFluqRbEVRLw" name="Lhs">
       <nodes xmi:id="_uL2XgFHrEeyFluqRbEVRLw" outgoing="_z1Yy4FHrEeyFluqRbEVRLw _1Zr3MFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue"/>
+        <type href="http://www.example.org/airport#//PassengerQueue"/>
       </nodes>
       <nodes xmi:id="_ulLdgFHrEeyFluqRbEVRLw" incoming="_z1Yy4FHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//CheckinCounter"/>
+        <type href="http://www.example.org/airport#//CheckinCounter"/>
       </nodes>
       <nodes xmi:id="_vAx0YFHrEeyFluqRbEVRLw" name="nextPassenger" incoming="_1Zr3MFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+        <type href="http://www.example.org/airport#//Passenger"/>
       </nodes>
       <edges xmi:id="_z1Yy4FHrEeyFluqRbEVRLw" source="_uL2XgFHrEeyFluqRbEVRLw" target="_ulLdgFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue/feedsInto"/>
+        <type href="http://www.example.org/airport#//PassengerQueue/feedsInto"/>
       </edges>
       <edges xmi:id="_1Zr3MFHrEeyFluqRbEVRLw" source="_uL2XgFHrEeyFluqRbEVRLw" target="_vAx0YFHrEeyFluqRbEVRLw" index="1">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue/queuedPassengers"/>
+        <type href="http://www.example.org/airport#//PassengerQueue/queuedPassengers"/>
       </edges>
       <formula xsi:type="henshin:Not" xmi:id="_B_s8gFHsEeyFluqRbEVRLw">
         <child xsi:type="henshin:NestedCondition" xmi:id="_B_s8gVHsEeyFluqRbEVRLw">
           <conclusion xmi:id="_B_s8glHsEeyFluqRbEVRLw">
             <nodes xmi:id="_B_s8g1HsEeyFluqRbEVRLw" incoming="_C2dlYVHsEeyFluqRbEVRLw" outgoing="_4pEkUFHrEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//CheckinCounter"/>
+              <type href="http://www.example.org/airport#//CheckinCounter"/>
             </nodes>
             <nodes xmi:id="_vURYIFHrEeyFluqRbEVRLw" name="servedPassenger" incoming="_4pEkUFHrEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+              <type href="http://www.example.org/airport#//Passenger"/>
             </nodes>
             <nodes xmi:id="_C2c-UFHsEeyFluqRbEVRLw" outgoing="_C2dlYVHsEeyFluqRbEVRLw _C2dlZFHsEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue"/>
+              <type href="http://www.example.org/airport#//PassengerQueue"/>
             </nodes>
             <nodes xmi:id="_C2dlYlHsEeyFluqRbEVRLw" name="nextPassenger" incoming="_C2dlZFHsEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+              <type href="http://www.example.org/airport#//Passenger"/>
             </nodes>
             <edges xmi:id="_4pEkUFHrEeyFluqRbEVRLw" source="_B_s8g1HsEeyFluqRbEVRLw" target="_vURYIFHrEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//CheckinCounter/passenger"/>
+              <type href="http://www.example.org/airport#//CheckinCounter/passenger"/>
             </edges>
             <edges xmi:id="_C2dlYVHsEeyFluqRbEVRLw" source="_C2c-UFHsEeyFluqRbEVRLw" target="_B_s8g1HsEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue/feedsInto"/>
+              <type href="http://www.example.org/airport#//PassengerQueue/feedsInto"/>
             </edges>
             <edges xmi:id="_C2dlZFHsEeyFluqRbEVRLw" source="_C2c-UFHsEeyFluqRbEVRLw" target="_C2dlYlHsEeyFluqRbEVRLw">
-              <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue/queuedPassengers"/>
+              <type href="http://www.example.org/airport#//PassengerQueue/queuedPassengers"/>
             </edges>
           </conclusion>
           <mappings xmi:id="_B_tjkFHsEeyFluqRbEVRLw" origin="_ulLdgFHrEeyFluqRbEVRLw" image="_B_s8g1HsEeyFluqRbEVRLw"/>
@@ -109,19 +109,19 @@
     </lhs>
     <rhs xmi:id="_sMw0oVHrEeyFluqRbEVRLw" name="Rhs">
       <nodes xmi:id="_uL2-kFHrEeyFluqRbEVRLw" outgoing="_z1Yy4VHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue"/>
+        <type href="http://www.example.org/airport#//PassengerQueue"/>
       </nodes>
       <nodes xmi:id="_ulMEkFHrEeyFluqRbEVRLw" incoming="_z1Yy4VHrEeyFluqRbEVRLw" outgoing="_35ndUFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//CheckinCounter"/>
+        <type href="http://www.example.org/airport#//CheckinCounter"/>
       </nodes>
       <nodes xmi:id="_vAx0YVHrEeyFluqRbEVRLw" name="nextPassenger" incoming="_35ndUFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//Passenger"/>
+        <type href="http://www.example.org/airport#//Passenger"/>
       </nodes>
       <edges xmi:id="_z1Yy4VHrEeyFluqRbEVRLw" source="_uL2-kFHrEeyFluqRbEVRLw" target="_ulMEkFHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//PassengerQueue/feedsInto"/>
+        <type href="http://www.example.org/airport#//PassengerQueue/feedsInto"/>
       </edges>
       <edges xmi:id="_35ndUFHrEeyFluqRbEVRLw" source="_ulMEkFHrEeyFluqRbEVRLw" target="_vAx0YVHrEeyFluqRbEVRLw">
-        <type href="../../plugin/uk.ac.kcl.inf.modelling.airportcheckin.model/model/airport.ecore#//CheckinCounter/passenger"/>
+        <type href="http://www.example.org/airport#//CheckinCounter/passenger"/>
       </edges>
     </rhs>
     <mappings xmi:id="_uL3loFHrEeyFluqRbEVRLw" origin="_uL2XgFHrEeyFluqRbEVRLw" image="_uL2-kFHrEeyFluqRbEVRLw"/>
