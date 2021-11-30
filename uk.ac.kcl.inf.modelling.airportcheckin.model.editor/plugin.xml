@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated airport -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="uk.ac.kcl.inf.modelling.airportcheckin.model.airport.presentation.AirportModelWizardID"
+            name="%_UI_AirportModelWizard_label"
+            class="uk.ac.kcl.inf.modelling.airportcheckin.model.airport.presentation.AirportModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AirportModelFile.gif">
+         <description>%_UI_AirportModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated airport -->
+      <editor
+            id="uk.ac.kcl.inf.modelling.airportcheckin.model.airport.presentation.AirportEditorID"
+            name="%_UI_AirportEditor_label"
+            icon="icons/full/obj16/AirportModelFile.gif"
+            extensions="airport"
+            class="uk.ac.kcl.inf.modelling.airportcheckin.model.airport.presentation.AirportEditor"
+            contributorClass="uk.ac.kcl.inf.modelling.airportcheckin.model.airport.presentation.AirportActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
