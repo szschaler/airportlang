@@ -73,7 +73,7 @@
       <edges xmi:id="_z1Yy4FHrEeyFluqRbEVRLw" source="_uL2XgFHrEeyFluqRbEVRLw" target="_ulLdgFHrEeyFluqRbEVRLw">
         <type href="http://www.example.org/airport#//PassengerQueue/feedsInto"/>
       </edges>
-      <edges xmi:id="_1Zr3MFHrEeyFluqRbEVRLw" source="_uL2XgFHrEeyFluqRbEVRLw" target="_vAx0YFHrEeyFluqRbEVRLw" index="1">
+      <edges xmi:id="_1Zr3MFHrEeyFluqRbEVRLw" source="_uL2XgFHrEeyFluqRbEVRLw" target="_vAx0YFHrEeyFluqRbEVRLw" index="0">
         <type href="http://www.example.org/airport#//PassengerQueue/queuedPassengers"/>
       </edges>
       <formula xsi:type="henshin:Not" xmi:id="_B_s8gFHsEeyFluqRbEVRLw">

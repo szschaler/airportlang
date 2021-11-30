@@ -11,7 +11,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_5uR8EFHvEeyXYqvji8qJow">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_6BVa8FHvEeyXYqvji8qJow" name="new AirportDiagram" repPath="#_6BBR4FHvEeyXYqvji8qJow" changeId="b318bd4f-d289-4ac8-b2f0-e9cde4b980e7">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_6BVa8FHvEeyXYqvji8qJow" name="new AirportDiagram" repPath="#_6BBR4FHvEeyXYqvji8qJow" changeId="78bfe4b8-4f42-45ae-a8a6-e4e4332c90b2">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']"/>
         <target xmi:type="airport:Airport" href="example.airport#/"/>
       </ownedRepresentationDescriptors>
@@ -391,31 +391,11 @@
         <children xmi:type="notation:Node" xmi:id="_6EbyQFHvEeyXYqvji8qJow" type="2002" element="_6D_tYVHvEeyXYqvji8qJow">
           <children xmi:type="notation:Node" xmi:id="_6EdAYFHvEeyXYqvji8qJow" type="5006"/>
           <children xmi:type="notation:Node" xmi:id="_6EdAYVHvEeyXYqvji8qJow" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_6EgqwFHvEeyXYqvji8qJow" type="3007" element="_6ECJoFHvEeyXYqvji8qJow">
-              <children xmi:type="notation:Node" xmi:id="_6EhR0FHvEeyXYqvji8qJow" type="5003">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_6EhR0VHvEeyXYqvji8qJow" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_6Eh44FHvEeyXYqvji8qJow" type="3005" element="_6ECJoVHvEeyXYqvji8qJow">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_6Eh44VHvEeyXYqvji8qJow" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Eh44lHvEeyXYqvji8qJow"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_6EgqwVHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EgqwlHvEeyXYqvji8qJow" x="30" y="29" width="50" height="66"/>
-            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_6EdAYlHvEeyXYqvji8qJow"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_6EdAY1HvEeyXYqvji8qJow"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_6EbyQVHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EbyQlHvEeyXYqvji8qJow" x="305" y="160"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_6EdAZFHvEeyXYqvji8qJow" type="2002" element="_6EA7gVHvEeyXYqvji8qJow">
-          <children xmi:type="notation:Node" xmi:id="_6EdnclHvEeyXYqvji8qJow" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_6Ednc1HvEeyXYqvji8qJow" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_6EdndFHvEeyXYqvji8qJow"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_6EdndVHvEeyXYqvji8qJow"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_6EdncFHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EdncVHvEeyXYqvji8qJow" x="625" y="160"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EbyQlHvEeyXYqvji8qJow" x="605" y="225"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_6EdndlHvEeyXYqvji8qJow" type="2002" element="_6ECwsFHvEeyXYqvji8qJow">
           <children xmi:type="notation:Node" xmi:id="_6EeOglHvEeyXYqvji8qJow" type="5006"/>
@@ -448,77 +428,97 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_6EeOgFHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EeOgVHvEeyXYqvji8qJow" y="2"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_Mg3mcFHyEeyBQ6kVWlG73w" type="2002" element="_Mf8ZZFHyEeyBQ6kVWlG73w">
+          <children xmi:type="notation:Node" xmi:id="_Mg6CsFHyEeyBQ6kVWlG73w" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Mg6CsVHyEeyBQ6kVWlG73w" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_SyBbcFHyEeyBQ6kVWlG73w" type="3007" element="_SxCkBVHyEeyBQ6kVWlG73w">
+              <children xmi:type="notation:Node" xmi:id="_SyCCgFHyEeyBQ6kVWlG73w" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_SyCCgVHyEeyBQ6kVWlG73w" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_SyD3sFHyEeyBQ6kVWlG73w" type="3005" element="_SxEZMFHyEeyBQ6kVWlG73w">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_SyD3sVHyEeyBQ6kVWlG73w" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SyD3slHyEeyBQ6kVWlG73w"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_SyBbcVHyEeyBQ6kVWlG73w" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SyBbclHyEeyBQ6kVWlG73w" width="50" height="66"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Mg6CslHyEeyBQ6kVWlG73w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Mg6Cs1HyEeyBQ6kVWlG73w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Mg3mcVHyEeyBQ6kVWlG73w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg3mclHyEeyBQ6kVWlG73w" x="315" y="215"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_6BcIoVHvEeyXYqvji8qJow"/>
-        <edges xmi:type="notation:Edge" xmi:id="_6EnYcFHvEeyXYqvji8qJow" type="4001" element="_6EI3UFHvEeyXYqvji8qJow" source="_6EbyQFHvEeyXYqvji8qJow" target="_6ET2cFHvEeyXYqvji8qJow">
-          <children xmi:type="notation:Node" xmi:id="_6En_gFHvEeyXYqvji8qJow" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6En_gVHvEeyXYqvji8qJow" y="-10"/>
+        <edges xmi:type="notation:Edge" xmi:id="_I2u3AFHyEeyBQ6kVWlG73w" type="4001" element="_I2sawFHyEeyBQ6kVWlG73w" source="_6EbyQFHvEeyXYqvji8qJow" target="_6EakIFHvEeyXYqvji8qJow">
+          <children xmi:type="notation:Node" xmi:id="_I2veEFHyEeyBQ6kVWlG73w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I2veEVHyEeyBQ6kVWlG73w" x="22" y="-48"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6Ep0sFHvEeyXYqvji8qJow" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Ep0sVHvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_I2wFIFHyEeyBQ6kVWlG73w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I2wFIVHyEeyBQ6kVWlG73w" x="-60"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6EqbwFHvEeyXYqvji8qJow" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EqbwVHvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_I2wsMFHyEeyBQ6kVWlG73w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I2wsMVHyEeyBQ6kVWlG73w" x="-10"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6EnYcVHvEeyXYqvji8qJow" routing="Rectilinear"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_6EnYclHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6EnYc1HvEeyXYqvji8qJow" points="[-1, 0, 80, 60]$[-81, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6Ev7UFHvEeyXYqvji8qJow" id="(0.5067567567567568,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6Ev7UVHvEeyXYqvji8qJow" id="(0.5,1.0)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_I2u3AVHyEeyBQ6kVWlG73w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_I2u3AlHyEeyBQ6kVWlG73w" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_I2u3A1HyEeyBQ6kVWlG73w" points="[31, -34, -70, 175]$[31, -94, -70, 115]$[101, -94, 0, 115]$[101, -161, 0, 48]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I20WkFHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I20WkVHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_6Ev7UlHvEeyXYqvji8qJow" type="4001" element="_6EKsgFHvEeyXYqvji8qJow" source="_6EbyQFHvEeyXYqvji8qJow" target="_6EYu8FHvEeyXYqvji8qJow">
-          <children xmi:type="notation:Node" xmi:id="_6EwiYFHvEeyXYqvji8qJow" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EwiYVHvEeyXYqvji8qJow" y="-10"/>
+        <edges xmi:type="notation:Edge" xmi:id="_I20WklHyEeyBQ6kVWlG73w" type="4001" element="_I2tB01HyEeyBQ6kVWlG73w" source="_6EbyQFHvEeyXYqvji8qJow" target="_6EZWAlHvEeyXYqvji8qJow">
+          <children xmi:type="notation:Node" xmi:id="_I209oFHyEeyBQ6kVWlG73w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I209oVHyEeyBQ6kVWlG73w" y="-40"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6EwiYlHvEeyXYqvji8qJow" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EwiY1HvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_I209olHyEeyBQ6kVWlG73w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I209o1HyEeyBQ6kVWlG73w" x="-60"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6EwiZFHvEeyXYqvji8qJow" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EwiZVHvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_I209pFHyEeyBQ6kVWlG73w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I209pVHyEeyBQ6kVWlG73w" x="-39" y="61"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6Ev7U1HvEeyXYqvji8qJow" routing="Rectilinear"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_6Ev7VFHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6Ev7VVHvEeyXYqvji8qJow" points="[-1, 0, -80, 60]$[79, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ExJcFHvEeyXYqvji8qJow" id="(0.5067567567567568,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6ExJcVHvEeyXYqvji8qJow" id="(0.5,1.0)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_I20Wk1HyEeyBQ6kVWlG73w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_I20WlFHyEeyBQ6kVWlG73w" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_I20WlVHyEeyBQ6kVWlG73w" points="[31, -34, 120, 175]$[31, -94, 120, 115]$[-89, -94, 0, 115]$[-89, -161, 0, 48]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I21ksFHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I21ksVHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_6ExJclHvEeyXYqvji8qJow" type="4001" element="_6ELTkFHvEeyXYqvji8qJow" source="_6EdAZFHvEeyXYqvji8qJow" target="_6EakIFHvEeyXYqvji8qJow">
-          <children xmi:type="notation:Node" xmi:id="_6ExwgFHvEeyXYqvji8qJow" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ExwgVHvEeyXYqvji8qJow" y="-10"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Mg6pwFHyEeyBQ6kVWlG73w" type="4001" element="_MgADxFHyEeyBQ6kVWlG73w" source="_Mg3mcFHyEeyBQ6kVWlG73w" target="_6ET2cFHvEeyXYqvji8qJow">
+          <children xmi:type="notation:Node" xmi:id="_Mg6pxFHyEeyBQ6kVWlG73w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg6pxVHyEeyBQ6kVWlG73w" y="-40"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6ExwglHvEeyXYqvji8qJow" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Exwg1HvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_Mg6pxlHyEeyBQ6kVWlG73w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg6px1HyEeyBQ6kVWlG73w" x="-12" y="-10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6ExwhFHvEeyXYqvji8qJow" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ExwhVHvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_Mg6pyFHyEeyBQ6kVWlG73w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg6pyVHyEeyBQ6kVWlG73w" x="-10"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6ExJc1HvEeyXYqvji8qJow" routing="Rectilinear"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_6ExJdFHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ExJdVHvEeyXYqvji8qJow" points="[-1, 0, -80, 60]$[79, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6EyXkFHvEeyXYqvji8qJow" id="(0.5067567567567568,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6EyXkVHvEeyXYqvji8qJow" id="(0.5,1.0)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Mg6pwVHyEeyBQ6kVWlG73w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Mg6pwlHyEeyBQ6kVWlG73w" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mg6pw1HyEeyBQ6kVWlG73w" points="[1, -34, 120, 165]$[1, -84, 120, 115]$[-119, -84, 0, 115]$[-119, -151, 0, 48]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mg7Q0FHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mg7Q0VHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_6EyXklHvEeyXYqvji8qJow" type="4001" element="_6EL6olHvEeyXYqvji8qJow" source="_6EdAZFHvEeyXYqvji8qJow" target="_6EZWAlHvEeyXYqvji8qJow">
-          <children xmi:type="notation:Node" xmi:id="_6EyXllHvEeyXYqvji8qJow" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EyXl1HvEeyXYqvji8qJow" y="-10"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Mg7Q0lHyEeyBQ6kVWlG73w" type="4001" element="_MgE8QlHyEeyBQ6kVWlG73w" source="_Mg3mcFHyEeyBQ6kVWlG73w" target="_6EYu8FHvEeyXYqvji8qJow">
+          <children xmi:type="notation:Node" xmi:id="_Mg7Q1lHyEeyBQ6kVWlG73w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg7Q11HyEeyBQ6kVWlG73w" y="40"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6EyXmFHvEeyXYqvji8qJow" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EyXmVHvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_Mg7Q2FHyEeyBQ6kVWlG73w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg7Q2VHyEeyBQ6kVWlG73w" x="-60"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_6EyXmlHvEeyXYqvji8qJow" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6EyXm1HvEeyXYqvji8qJow" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_Mg7Q2lHyEeyBQ6kVWlG73w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mg7Q21HyEeyBQ6kVWlG73w" x="-10"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6EyXk1HvEeyXYqvji8qJow" routing="Rectilinear"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_6EyXlFHvEeyXYqvji8qJow" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6EyXlVHvEeyXYqvji8qJow" points="[-1, 0, 80, 60]$[-81, -60, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6Ey-oFHvEeyXYqvji8qJow" id="(0.5067567567567568,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6Ey-oVHvEeyXYqvji8qJow" id="(0.5,1.0)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Mg7Q01HyEeyBQ6kVWlG73w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Mg7Q1FHyEeyBQ6kVWlG73w" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mg7Q1VHyEeyBQ6kVWlG73w" points="[1, -34, -70, 165]$[1, -84, -70, 115]$[70, -84, -1, 115]$[70, -151, -1, 48]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mg7Q3FHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mg7Q3VHyEeyBQ6kVWlG73w" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_6EMhslHvEeyXYqvji8qJow" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_6EMhs1HvEeyXYqvji8qJow"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6DzgIFHvEeyXYqvji8qJow" incomingEdges="_6EI3UFHvEeyXYqvji8qJow" width="10" height="10" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6DzgIFHvEeyXYqvji8qJow" incomingEdges="_MgADxFHyEeyBQ6kVWlG73w" width="10" height="10" resizeKind="NSEW">
       <target xmi:type="airport:CheckinCounter" href="example.airport#//@counters.0"/>
       <semanticElements xmi:type="airport:CheckinCounter" href="example.airport#//@counters.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6D604FHvEeyXYqvji8qJow" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/uk.ac.kcl.inf.modelling.airportcheckin.design/images/noun_airport counter_2108916.png">
@@ -526,7 +526,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@nodeMappings[name='Checkin']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6D94MFHvEeyXYqvji8qJow" incomingEdges="_6EKsgFHvEeyXYqvji8qJow" width="10" height="10" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6D94MFHvEeyXYqvji8qJow" incomingEdges="_MgE8QlHyEeyBQ6kVWlG73w" width="10" height="10" resizeKind="NSEW">
       <target xmi:type="airport:CheckinCounter" href="example.airport#//@counters.1"/>
       <semanticElements xmi:type="airport:CheckinCounter" href="example.airport#//@counters.1"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6D94MVHvEeyXYqvji8qJow" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/uk.ac.kcl.inf.modelling.airportcheckin.design/images/noun_airport counter_2108916.png">
@@ -534,7 +534,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@nodeMappings[name='Checkin']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6D-fQVHvEeyXYqvji8qJow" incomingEdges="_6EL6olHvEeyXYqvji8qJow" width="10" height="10" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6D-fQVHvEeyXYqvji8qJow" incomingEdges="_I2tB01HyEeyBQ6kVWlG73w" width="10" height="10" resizeKind="NSEW">
       <target xmi:type="airport:CheckinCounter" href="example.airport#//@counters.2"/>
       <semanticElements xmi:type="airport:CheckinCounter" href="example.airport#//@counters.2"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6D-fQlHvEeyXYqvji8qJow" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/uk.ac.kcl.inf.modelling.airportcheckin.design/images/noun_airport counter_2108916.png">
@@ -542,7 +542,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@nodeMappings[name='Checkin']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6D_GUVHvEeyXYqvji8qJow" incomingEdges="_6ELTkFHvEeyXYqvji8qJow" width="10" height="10" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_6D_GUVHvEeyXYqvji8qJow" incomingEdges="_I2sawFHyEeyBQ6kVWlG73w" width="10" height="10" resizeKind="NSEW">
       <target xmi:type="airport:CheckinCounter" href="example.airport#//@counters.3"/>
       <semanticElements xmi:type="airport:CheckinCounter" href="example.airport#//@counters.3"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6D_GUlHvEeyXYqvji8qJow" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/uk.ac.kcl.inf.modelling.airportcheckin.design/images/noun_airport counter_2108916.png">
@@ -550,26 +550,13 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@nodeMappings[name='Checkin']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6D_tYVHvEeyXYqvji8qJow" name="Queue" outgoingEdges="_6EI3UFHvEeyXYqvji8qJow _6EKsgFHvEeyXYqvji8qJow">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6D_tYVHvEeyXYqvji8qJow" name="Queue" outgoingEdges="_I2sawFHyEeyBQ6kVWlG73w _I2tB01HyEeyBQ6kVWlG73w">
       <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.0"/>
       <semanticElements xmi:type="airport:PassengerQueue" href="example.airport#//@queues.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6EAUcFHvEeyXYqvji8qJow" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69" foregroundColor="204,242,166">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']"/>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_6ECJoFHvEeyXYqvji8qJow" width="5" height="5">
-        <target xmi:type="airport:Passenger" href="example.airport#//@queues.0/@queuedPassengers.0"/>
-        <semanticElements xmi:type="airport:Passenger" href="example.airport#//@queues.0/@queuedPassengers.0"/>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6ECJoVHvEeyXYqvji8qJow" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/uk.ac.kcl.inf.modelling.airportcheckin.design/images/noun_passenger_4354005.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@subNodeMappings[name='PassengerInQueue']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@subNodeMappings[name='PassengerInQueue']"/>
-      </ownedDiagramElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6EA7gVHvEeyXYqvji8qJow" name="Queue" outgoingEdges="_6ELTkFHvEeyXYqvji8qJow _6EL6olHvEeyXYqvji8qJow">
-      <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.1"/>
-      <semanticElements xmi:type="airport:PassengerQueue" href="example.airport#//@queues.1"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6EBikFHvEeyXYqvji8qJow" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69" foregroundColor="204,242,166">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']"/>
@@ -598,35 +585,54 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='Floaters']/@subNodeMappings[name='FloatingPassenger']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6EI3UFHvEeyXYqvji8qJow" sourceNode="_6D_tYVHvEeyXYqvji8qJow" targetNode="_6DzgIFHvEeyXYqvji8qJow">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_I2sawFHyEeyBQ6kVWlG73w" sourceNode="_6D_tYVHvEeyXYqvji8qJow" targetNode="_6D_GUVHvEeyXYqvji8qJow">
       <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6EKFcFHvEeyXYqvji8qJow" size="2" routingStyle="manhattan">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_I2sawVHyEeyBQ6kVWlG73w" size="2" routingStyle="manhattan">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6EKFcVHvEeyXYqvji8qJow" labelSize="12"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_I2tB0FHyEeyBQ6kVWlG73w" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6EKsgFHvEeyXYqvji8qJow" sourceNode="_6D_tYVHvEeyXYqvji8qJow" targetNode="_6D94MFHvEeyXYqvji8qJow">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_I2tB01HyEeyBQ6kVWlG73w" sourceNode="_6D_tYVHvEeyXYqvji8qJow" targetNode="_6D-fQVHvEeyXYqvji8qJow">
       <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6EKsgVHvEeyXYqvji8qJow" size="2" routingStyle="manhattan">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_I2tB1FHyEeyBQ6kVWlG73w" size="2" routingStyle="manhattan">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6EKsglHvEeyXYqvji8qJow" labelSize="12"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_I2tB1VHyEeyBQ6kVWlG73w" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6ELTkFHvEeyXYqvji8qJow" sourceNode="_6EA7gVHvEeyXYqvji8qJow" targetNode="_6D_GUVHvEeyXYqvji8qJow">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Mf8ZZFHyEeyBQ6kVWlG73w" name="Queue" outgoingEdges="_MgADxFHyEeyBQ6kVWlG73w _MgE8QlHyEeyBQ6kVWlG73w">
       <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6ELTkVHvEeyXYqvji8qJow" size="2" routingStyle="manhattan">
+      <semanticElements xmi:type="airport:PassengerQueue" href="example.airport#//@queues.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Mf9AcFHyEeyBQ6kVWlG73w" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="69,69,69" foregroundColor="204,242,166">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_SxCkBVHyEeyBQ6kVWlG73w" width="5" height="5">
+        <target xmi:type="airport:Passenger" href="example.airport#//@queues.1/@queuedPassengers.0"/>
+        <semanticElements xmi:type="airport:Passenger" href="example.airport#//@queues.1/@queuedPassengers.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_SxEZMFHyEeyBQ6kVWlG73w" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/uk.ac.kcl.inf.modelling.airportcheckin.design/images/noun_passenger_4354005.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@subNodeMappings[name='PassengerInQueue']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@containerMappings[name='PassengerQueue']/@subNodeMappings[name='PassengerInQueue']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_MgADxFHyEeyBQ6kVWlG73w" sourceNode="_Mf8ZZFHyEeyBQ6kVWlG73w" targetNode="_6DzgIFHvEeyXYqvji8qJow">
+      <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_MgDHEFHyEeyBQ6kVWlG73w" size="2" routingStyle="manhattan">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6ELTklHvEeyXYqvji8qJow" labelSize="12"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_MgDHEVHyEeyBQ6kVWlG73w" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6EL6olHvEeyXYqvji8qJow" sourceNode="_6EA7gVHvEeyXYqvji8qJow" targetNode="_6D-fQVHvEeyXYqvji8qJow">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_MgE8QlHyEeyBQ6kVWlG73w" sourceNode="_Mf8ZZFHyEeyBQ6kVWlG73w" targetNode="_6D94MFHvEeyXYqvji8qJow">
       <target xmi:type="airport:PassengerQueue" href="example.airport#//@queues.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6EL6o1HvEeyXYqvji8qJow" size="2" routingStyle="manhattan">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_MgGKYFHyEeyBQ6kVWlG73w" size="2" routingStyle="manhattan">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6EL6pFHvEeyXYqvji8qJow" labelSize="12"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_MgGKYVHyEeyBQ6kVWlG73w" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/uk.ac.kcl.inf.modelling.airportcheckin.design/description/airportcheckin.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AirportDiagram']/@defaultLayer/@edgeMappings[name='QueueFeed']"/>
     </ownedDiagramElements>

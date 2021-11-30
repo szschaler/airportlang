@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <airport:Airport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:airport="http://www.example.org/airport">
+  <queues feedsInto="//@counters.3 //@counters.2"/>
   <queues feedsInto="//@counters.0 //@counters.1">
     <queuedPassengers/>
   </queues>
-  <queues feedsInto="//@counters.3 //@counters.2"/>
-  <counters queues="//@queues.0"/>
-  <counters queues="//@queues.0"/>
   <counters queues="//@queues.1"/>
   <counters queues="//@queues.1"/>
+  <counters queues="//@queues.0"/>
+  <counters queues="//@queues.0"/>
   <floatingPassengers/>
   <floatingPassengers/>
 </airport:Airport>
