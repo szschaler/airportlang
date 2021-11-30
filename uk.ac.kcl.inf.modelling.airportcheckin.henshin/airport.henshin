@@ -128,4 +128,23 @@
     <mappings xmi:id="_ulMEkVHrEeyFluqRbEVRLw" origin="_ulLdgFHrEeyFluqRbEVRLw" image="_ulMEkFHrEeyFluqRbEVRLw"/>
     <mappings xmi:id="_vAx0YlHrEeyFluqRbEVRLw" origin="_vAx0YFHrEeyFluqRbEVRLw" image="_vAx0YVHrEeyFluqRbEVRLw"/>
   </units>
+  <units xsi:type="henshin:Rule" xmi:id="_sEnWgFHxEeyBQ6kVWlG73w" name="passengerLeavesDesk">
+    <lhs xmi:id="_sEwgcFHxEeyBQ6kVWlG73w" name="Lhs">
+      <nodes xmi:id="_tjkAwFHxEeyBQ6kVWlG73w" outgoing="_vt2HAFHxEeyBQ6kVWlG73w">
+        <type href="http://www.example.org/airport#//CheckinCounter"/>
+      </nodes>
+      <nodes xmi:id="_up59wFHxEeyBQ6kVWlG73w" incoming="_vt2HAFHxEeyBQ6kVWlG73w">
+        <type href="http://www.example.org/airport#//Passenger"/>
+      </nodes>
+      <edges xmi:id="_vt2HAFHxEeyBQ6kVWlG73w" source="_tjkAwFHxEeyBQ6kVWlG73w" target="_up59wFHxEeyBQ6kVWlG73w">
+        <type href="http://www.example.org/airport#//CheckinCounter/passenger"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_sEwgcVHxEeyBQ6kVWlG73w" name="Rhs">
+      <nodes xmi:id="_tjkAwVHxEeyBQ6kVWlG73w">
+        <type href="http://www.example.org/airport#//CheckinCounter"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_tjkAwlHxEeyBQ6kVWlG73w" origin="_tjkAwFHxEeyBQ6kVWlG73w" image="_tjkAwVHxEeyBQ6kVWlG73w"/>
+  </units>
 </henshin:Module>
