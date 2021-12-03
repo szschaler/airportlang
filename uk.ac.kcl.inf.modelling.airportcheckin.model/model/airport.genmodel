@@ -15,17 +15,13 @@
     <genClasses ecoreClass="airport.ecore#//Airport">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//Airport/queues"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//Airport/counters"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//Airport/floatingPassengers"/>
     </genClasses>
     <genClasses ecoreClass="airport.ecore#//PassengerQueue">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference airport.ecore#//PassengerQueue/feedsInto"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//PassengerQueue/queuedPassengers"/>
     </genClasses>
     <genClasses ecoreClass="airport.ecore#//CheckinCounter">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute airport.ecore#//CheckinCounter/name"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference airport.ecore#//CheckinCounter/queues"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference airport.ecore#//CheckinCounter/passenger"/>
     </genClasses>
-    <genClasses ecoreClass="airport.ecore#//Passenger"/>
   </genPackages>
 </genmodel:GenModel>
